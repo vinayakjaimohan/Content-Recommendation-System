@@ -1,0 +1,27 @@
+.recommendation-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.recommendation-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.recommendation-card-content {
+  padding: 16px;
+}
+
+.recommendation-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.recommendation-type {
+  color: #666;
+  font-size: 14px;
+} 
